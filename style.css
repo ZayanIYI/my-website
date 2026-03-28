@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1rem 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #2563eb;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #64748b;
+    margin-left: 25px;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #2563eb;
+}
+
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* The Grid Layout */
+.pdf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 10% 50px 10%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.document-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.pdf-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.document-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.document-card p {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.download-btn {
+    display: block;
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #1d4ed8;
+}
