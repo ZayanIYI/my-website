@@ -11,9 +11,11 @@ body {
 }
 
 header {
-    background: #ffffff;
+    background: #2e2e2e;
     border-bottom: 1px solid #e2e8f0;
-    padding: 1rem 10%;
+    padding: 2rem 10%;
+    height: 90px;
+    position: sticky;
 }
 
 nav {
@@ -24,8 +26,8 @@ nav {
 
 .logo {
     font-weight: 800;
-    font-size: 1.5rem;
-    color: #2563eb;
+    font-size: 25px;
+    color: #ffffff;
 }
 
 nav ul {
@@ -35,7 +37,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #64748b;
+    color: #ffffff;
     margin-left: 25px;
     font-size: 0.95rem;
     transition: color 0.2s;
@@ -109,4 +111,18 @@ nav ul li a:hover {
 
 .download-btn:hover {
     background: #1d4ed8;
+}
+
+footer{
+    background-color: rgb(53, 55, 55);
+    color: white;
+    height: 64 px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  
+}
+p{
+    padding: 20px;
 }
