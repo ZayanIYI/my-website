@@ -1,8 +1,8 @@
 .email{
     background-color: rgb(138, 187, 190);
-    padding: 50px;
     height: 75vh;
     font-size: 28px;
+    margin: 0;
 }
 footer{
     height: 75px;
